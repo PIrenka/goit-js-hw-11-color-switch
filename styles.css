@@ -1,0 +1,20 @@
+body {
+  margin: 20px;
+}
+
+button {
+  background-color: blueviolet;
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  padding: 20px 40px;
+  border-radius: 6px;
+  border: 3px dotted tomato;
+
+  cursor: pointer;
+  outline-color: rgb(41, 235, 138);
+}
+
+button[data-action='start'] {
+  margin-right: 50px;
+}
